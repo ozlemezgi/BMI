@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    
+}
+
+#box{
+    background-color: #424242;
+    color: white;
+    width: 500px;
+    position: absolute;
+    top:15%;
+    left:33%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#bmi-calculator h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+#bmi-result{
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
+}
+
+#bmi-info{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#bmi-info .row .col-md-3{
+    padding-top: 20px;
+}
+
+#bmi-info .row .col-md-3:nth-child(1){
+    background-color: rgb(19, 232, 232);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:20px ;
+}
+
+#bmi-info .row .col-md-3:nth-child(2){
+    background-color: rgb(22, 242, 66);
+   
+}
+
+#bmi-info .row .col-md-3:nth-child(3){
+    background-color: rgb(240, 151, 7);}
+
+#bmi-info .row .col-md-3:nth-child(4){
+        background-color: rgb(255, 0, 0);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius:20px ;
+    }
+
+#footer {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+
+
